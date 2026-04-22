@@ -1,0 +1,9 @@
+tensorflow>=2.5.0
+tf_keras
+opencv-python-headless>=4.2.0.32
+numpy
+imutils==0.5.4
+pillow>=8.3.2
+streamlit>=1.20.0
+scikit-learn
+scipy
