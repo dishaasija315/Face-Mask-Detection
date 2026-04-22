@@ -1,7 +1,7 @@
 <div align="center">
   <img src="demo_hero.png" alt="Face Mask Detector Hero" width="100%">
   <br>
-  <h1>😷 Cyberpunk Face Mask Detector</h1>
+  <h1>😷 NeuralGuard Face Mask Detector</h1>
   <p><b>An advanced deep learning application with a premium UI to detect mask compliance in real-time.</b></p>
 </div>
 
@@ -10,13 +10,13 @@
 ## 📖 Overview
 The **Face Mask Detector** is a highly optimized computer vision web application built with **Streamlit** and **TensorFlow**. It accepts image uploads and utilizes a two-stage deep learning pipeline to locate human faces and classify them into two categories: **Mask On** or **No Mask**. 
 
-Instead of a generic interface, this project features a fully custom, high-fidelity **Cyberpunk / Neon UI**. It includes dynamic dark/light mode toggling, custom Orbitron typography, floating particles, and 3D glassmorphism elements to provide an immersive user experience.
+Instead of a generic interface, this project features a fully custom, high-fidelity **Premium / Neon UI**. It includes dynamic dark/light mode toggling, custom Orbitron typography, floating particles, and 3D glassmorphism elements to provide an immersive user experience.
 
 ---
 
 ## ✨ Key Features
 - **🧠 Two-Stage AI Pipeline:** Uses an SSD (Single Shot Multibox Detector) to find faces with high accuracy, followed by a MobileNetV2 classifier to determine mask usage.
-- **🎨 Premium Cyberpunk Interface:** Completely overhauled frontend using custom CSS, avoiding standard Streamlit aesthetics. Features animated scan lines, glowing orbs, and neon gradients.
+- **🎨 Premium Interface:** Completely overhauled frontend using custom CSS, avoiding standard Streamlit aesthetics. Features animated scan lines, glowing orbs, and neon gradients.
 - **🌓 Adaptive Theme Engine:** Seamlessly switch between a vibrant Neon Dark Mode (default) and a crisp, high-contrast Light Mode using the built-in toggle.
 - **📊 Real-time Analytics Dashboard:** Instantly outputs visual metrics indicating total faces detected, safe individuals, and protocol violators.
 - **⚡ High Performance:** Models are cached intelligently (`@st.cache_resource`) to ensure lightning-fast inference on subsequent uploads without reloading the neural networks.
@@ -75,7 +75,7 @@ The application will automatically open in your default web browser at `http://l
 ## 📁 Repository Structure
 ```text
 📦 Face-Mask-Detection
- ┣ 📂 css/                  # Custom stylesheet for the Cyberpunk UI
+ ┣ 📂 css/                  # Custom stylesheet for the Premium UI
  ┃ ┗ 📜 styles.css
  ┣ 📂 face_detector/        # Pre-trained SSD model for face localization
  ┃ ┣ 📜 deploy.prototxt
